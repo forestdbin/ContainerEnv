@@ -1,0 +1,30 @@
+{
+  "name": "Foo",
+
+  "image": "x-dev:1",
+  "runArgs": [
+    // "--name", "foo",
+    "-u", "billd",
+    "-h", "dev-host",
+    "-w", "/home/billd"
+  ],
+
+  "remoteUser": "billd",
+  "workspaceFolder": "/home/billd",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        //
+      ]
+    }
+  },
+
+  "features": {
+    //
+  }
+
+}

@@ -1,0 +1,25 @@
+{
+  "name": "C++",
+
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "dev",
+
+  "remoteUser": "billd",
+  "workspaceFolder": "/home/billd",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        //
+      ]
+    }
+  },
+
+  "features": {
+    //
+  }
+
+}

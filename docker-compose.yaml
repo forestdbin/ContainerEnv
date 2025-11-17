@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dev:
+    image: x-dev:1
+    # container_name: foo
+    stdin_open: true
+    tty: true
+    user: billd
+    hostname: dev-host
+    working_dir: /home/billd
+    command: /bin/bash
