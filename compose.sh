@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export COMPOSE_PROJECT_NAME=foo-cxx
+export COMPOSE_PROJECT_NAME=foo
 
 docker-compose up -d dev
 
