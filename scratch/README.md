@@ -23,6 +23,7 @@ $ docker run \
     --name myfoo \
     --rm \
     --hostname foo-host \
+    -v myhome:/home/billd \
     myfoo
 ```
 
