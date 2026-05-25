@@ -7,5 +7,6 @@ docker run \
     -u billd \
     -h dev-host \
     -w /home/billd \
+    -v myhome:/home/billd \
     x-dev:1 \
     /bin/bash

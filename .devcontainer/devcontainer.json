@@ -6,11 +6,12 @@
     // "--name", "foo",
     "-u", "billd",
     "-h", "dev-host",
-    "-w", "/home/billd"
+    "-w", "/home/billd",
+    "-v", "myhome:/home/billd"
   ],
 
   "remoteUser": "billd",
-  "workspaceFolder": "/home/billd",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
   "customizations": {
     "vscode": {

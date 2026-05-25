@@ -2,6 +2,6 @@
 
 export COMPOSE_PROJECT_NAME=foo
 
-docker-compose up -d dev
+docker compose up -d dev
 
-docker-compose exec dev bash
+docker compose exec dev bash
