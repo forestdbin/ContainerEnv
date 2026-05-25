@@ -87,3 +87,11 @@ $ docker commit \
     myfoo \
     myfoo
 ```
+
+
+## TODO
+
+- [ ] 构建缓存
+    - 最小可用的 apt-cacher-ng + Docker build 接入方式
+    - 一个“除了 apt 以外也能缓存”的统一下载缓存设计草案
+    - 有没有透明的方案呢？
