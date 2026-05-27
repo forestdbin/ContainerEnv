@@ -5,7 +5,7 @@
   "service": "dev",
 
   "remoteUser": "billd",
-  "workspaceFolder": "/home/billd",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
   "customizations": {
     "vscode": {
